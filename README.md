@@ -1,9 +1,14 @@
 # segmentation_openvino_test
 
-### mkdir build && cd build
-### cmake ..
-### make -j8
+## CPU: i5-9400 
+## FPS: 6~7
+## Demo
+```
+mkdir build && cd build
+cmake ..
+make -j8
 
-### mv ../components_20220427* .
-### ./afford_demo
+mv ../components_20220427* .
+./afford_demo
+```
 
